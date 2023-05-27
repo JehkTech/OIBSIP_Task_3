@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body background="desert-unsplash.jpg">
+	<h1 class="animate__animated animate__bounceInDown">Temperature Converter</h1>
+	
+	<div id="converter" class="animate__animated animate__rubberBand">
+		<div>
+			<label >Temperature in Celsius:</label>
+			<input type="number" id="celsius" placeholder="Enter Celsius">
+			<button onclick="convert()">Convert</button>
+		</div>
+		<div>
+			<label>Temperature in Fahrenheit:</label>
+			<input type="text" id="fahrenheit" placeholder="Enter Fahrenheit">
+			<button onclick="convertToFahrenheit()">Convert</button>
+		</div>		
+		<div>
+			<label>Temperature in Kelvin:</label>
+			<input type="text" id="kelvin" placeholder="Enter Kelvin">
+			<button onclick="convertToKelvin()">Convert</button>
+		</div>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
